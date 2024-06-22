@@ -1,0 +1,165 @@
+div#rightcont {
+	/* background-color: aquamarine; */
+	width: 70%;
+	height: 1000px;
+	margin-left: 30%;
+	float: left;
+}
+
+.back {
+	font-size: 30px;
+	margin-left: 20px;
+	color: #000;
+	/* 去掉下划线 */
+	text-decoration: none;
+	float: left;
+}
+
+div#righttop {
+	width: 100%;
+	height: 50%;
+	background: url(../image/donghu.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+
+#rb1 {
+	width: 100%;
+	height: 375px;
+	float: left;	
+	/* background: url(../image/rb2.png) ; */
+	background-color:white;
+	/* 使其中的a标签居中 */
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 22px;
+}
+
+#rb1img {
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+
+#rb1img div {
+	width: 30%;
+	height: 280px;
+	margin: 0 1.666666% 5% 1.66666666%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+#rb1 img {
+	width: 100%;
+	height: 100%;
+}
+
+
+#rb2 {
+	width: 100%;
+	height: 400px;
+	float: left;
+	/* background: url(../image/rb1.png) ; */
+	background-color: white;	
+	/* 使其中的a标签居中 */
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 22px;
+}
+
+#rb2img {
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+
+#rb2img div {
+	width: 30%;
+	height: 280px;
+	margin: 0 1.666666% 5% 1.66666666%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+#rb2 img {
+	width: 100%;
+	height: 100%;
+}
+
+#rb3 {
+	width: 100%;
+	height: 375px;
+	float: left;	
+	/* background: url(../image/rb2.png) ; */
+	background-color:#f7f7f7;
+	/* 使其中的a标签居中 */
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 22px;
+}
+
+#rb3img {
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+
+#rb3img div {
+	width: 20%;
+	height: 70%;
+	margin: 2.5% 2.5% 0 2.5%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+#rb3 img {
+	width: 100%;
+	height: 100%;
+}
+
+#rb4 {
+	width: 100%;
+	height: 375px;
+	float: left;	
+	/* background: url(../image/rb2.png) ; */
+	background-color:#f7f7f7;
+	/* 使其中的a标签居中 */
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 22px;
+}
+
+#rb4img {
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+
+#rb4img div {
+	width: 20%;
+	height: 70%;
+	margin: 2.5% 2.5% 0 2.5%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+#rb4 img {
+	width: 100%;
+	height: 100%;
+}
+
+#rb5 {
+	width: 100%;
+	height: 600px;
+	float: left;
+	/* background: url(../image/rb1.png) ; */
+	background-color: #fff;	
+	/* 使其中的a标签居中 */
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 22px;
+}
+
+#rb5img {
+	width: 75%;
+	height: 80%;
+	margin: 0 12.5% 7.5% 12.5%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

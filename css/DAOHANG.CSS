@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    /* background: url(../image/background.png) no-repeat; */
+    background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+div#leftcont {
+	background-color: white;
+	width: 30%;
+	height: 100%;
+	padding-top: 10px;
+	float: left;
+	/* 给这一部分加一下阴影，显得不突兀 */
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	/* 使得滑动时，左边部分不动 */
+	position: fixed;
+
+}
+
+
+nav {
+    /* background-color: black; */
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	margin: 20px 0 0 0px;
+    /* 将li标签中的文字居中 */
+    /* text-align: center; */
+}
+nav ul li {
+	display: inline;
+	padding: 5px 5px 5px 25px;
+    /* 将其中多个文字之间隔开，设置右外边距 */
+    margin-right: 35px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: black;
+	border-bottom: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+img#lrt {
+	height: 300px;
+	width: 220px;
+	display: block;
+	margin: 50px auto 0 auto;
+}
+
+p#leftword {
+	font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	/* 居中 */
+	text-align: center;
+	/* 设置一下与照片之间的距离 */
+	margin-top: 66px;
+	font-size: 30px;
+	/* 加粗 */
+	font-weight: bold;
+}
+
+footer#leftbottom {
+	padding: 10px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 10px;
+	/* 居中 */
+	text-align: center;
+	/* 使其在页面底部 */
+	margin: 150px 0 0 0 ;
+}

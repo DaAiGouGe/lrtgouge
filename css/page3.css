@@ -1,0 +1,65 @@
+div#rightcont {
+	/* background-color: aquamarine; */
+	width: 70%;
+	height: 800px;
+	margin-left: 30%;
+	float: left;
+}
+
+.back {
+	font-size: 30px;
+	margin-left: 20px;
+	color: #000;
+	/* 去掉下划线 */
+	text-decoration: none;
+	float: left;
+}
+
+.word1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.word2 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+	text-align: right;
+	font-style: italic;
+	padding-right: 50px;
+}
+
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	border-radius: 20px;
+	background: #f7f7f7;	
+	width: 80%;
+	margin: 5% 10% 0 10%;
+	color: #666;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 18px;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}
